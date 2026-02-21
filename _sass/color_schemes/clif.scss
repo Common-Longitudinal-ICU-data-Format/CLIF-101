@@ -1,0 +1,61 @@
+// CLIF Consortium Color Scheme
+// Based on clif-icu.com branding
+
+$clif-burgundy: #983232;
+$clif-dark-blue: #2c3e50;
+$clif-light-gray: #f8f9fa;
+$clif-border: #e9ecef;
+
+// Primary brand color
+$link-color: $clif-burgundy;
+
+// Sidebar
+$sidebar-color: $clif-light-gray;
+
+// Navigation
+$nav-child-link-color: $clif-dark-blue;
+
+// Buttons
+$btn-primary-color: $clif-burgundy;
+
+// Code
+$code-background-color: $clif-light-gray;
+
+// Headings
+$body-heading-color: $clif-dark-blue;
+
+// Search
+$search-result-preview-color: $clif-dark-blue;
+
+// Footer
+$footer-background-color: $clif-light-gray;
+
+// Borders
+$border-color: $clif-border;
+
+// Callouts - use CLIF colors
+$callouts: (
+  highlight: (
+    color: $clif-burgundy,
+    opacity: 0.15,
+    icon: none
+  ),
+  important: (
+    title: "Important",
+    color: $clif-dark-blue,
+    opacity: 0.2,
+    icon: none
+  ),
+  note: (
+    title: "Note",
+    color: $clif-burgundy,
+    opacity: 0.1,
+    icon: none
+  ),
+  warning: (
+    title: "Warning",
+    color: #d9534f,
+    opacity: 0.2,
+    icon: none
+  )
+);

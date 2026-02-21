@@ -1,10 +1,13 @@
 title: CLIF 101
 description: A gentle introduction to coding with CLIF datasets
 remote_theme: just-the-docs/just-the-docs
-color_scheme: light
+color_scheme: clif
 
 url: https://common-longitudinal-icu-data-format.github.io
 baseurl: /CLIF-101
+
+# Logo
+logo: "/assets/images/clif_logo.png"
 
 # Enable search
 search_enabled: true
@@ -24,7 +27,7 @@ aux_links:
 aux_links_new_tab: true
 
 # Footer
-footer_content: "CLIF Consortium &copy; 2026. Distributed under the MIT License."
+footer_content: "CLIF Consortium &copy; 2026. Distributed under the Apache License 2.0."
 
 # Back to top link
 back_to_top: true

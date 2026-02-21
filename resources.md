@@ -52,10 +52,13 @@ Essential links, repos, and references for CLIF development.
 
 ## Claude/AI Skills
 
+See the detailed [AI Coding Tools]({{ site.baseurl }}/ai-coding-tools/) comparison page for setup instructions.
+
 | Resource | Description |
 |:---------|:------------|
-| [clif_skills_agents](https://github.com/RushAI-jcr/clif_skills_agents) | **Multi-platform CLIF AI assistant** - Python & R, Claude Code & Kilo Code & Codex CLI, marimo/Jupyter/Quarto. 8 rules to prevent cross-site bugs, full CLIF 2.1 schema |
-| [CLIF Skills Repo](https://github.com/Common-Longitudinal-ICU-data-Format/skills) | Official Claude skill for CLIF development |
+| [Official CLIF Skills](https://github.com/Common-Longitudinal-ICU-data-Format/skills) | Consortium-maintained Claude skill (marketplace) |
+| [kaveriC/claude-setup](https://github.com/kaveriC/claude-setup) | Quick Claude Code config + session commands |
+| [clif_skills_agents](https://github.com/RushAI-jcr/clif_skills_agents) | Multi-platform (Python & R, Claude/Kilo/Codex, marimo/Jupyter/Quarto) |
 | [Marimo Skills](https://github.com/marimo-team/skills) | Marimo notebook skills |
 | [Awesome Claude Skills](https://github.com/ComposioHQ/awesome-claude-skills) | Community Claude skills |
 
