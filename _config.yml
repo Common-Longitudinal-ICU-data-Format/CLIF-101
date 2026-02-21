@@ -1,0 +1,57 @@
+title: CLIF 101
+description: A gentle introduction to coding with CLIF datasets
+remote_theme: just-the-docs/just-the-docs
+color_scheme: light
+
+url: https://common-longitudinal-icu-data-format.github.io
+baseurl: /CLIF-101
+
+# Enable search
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+
+# Aux links (top right)
+aux_links:
+  "CLIF GitHub":
+    - "https://github.com/Common-Longitudinal-ICU-data-Format"
+  "clif-icu.com":
+    - "https://clif-icu.com"
+
+aux_links_new_tab: true
+
+# Footer
+footer_content: "CLIF Consortium &copy; 2026. Distributed under the MIT License."
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Code copy button
+enable_copy_code_button: true
+
+# Heading anchor links
+heading_anchors: true
+
+# Navigation
+nav_sort: case_insensitive
+
+# Callouts
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
