@@ -59,7 +59,6 @@ Once buddy testing passes, the **PI releases** the project for the consortium ru
 
 ## Getting help
 
-- **#clif-code-ecosystem:** coding questions
-- **#clifpy:** clifpy-specific issues
+- **Reach out:** clif_consortium@uchicago.edu
 - **GitHub Issues:** bugs in clifpy or project repos
 - **Weekly CLIF Calls:** Thursdays 2-3 PM CT
