@@ -1,7 +1,7 @@
 ---
 layout: default
 title: AI Coding Tools
-nav_order: 8
+nav_order: 9
 ---
 
 # AI Coding Tools for CLIF
