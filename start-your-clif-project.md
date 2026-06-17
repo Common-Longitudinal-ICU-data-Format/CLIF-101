@@ -41,15 +41,6 @@ my-clif-project/
 └── guides/                   # creator guide, primer, buddy-testing guide
 ```
 
-**Configure your site.** Copy `config_template.json` to `config.json` (gitignored) and set `site_name`, `tables_path`, and `file_type`. Keep *all* site-specific values here, and never hardcode paths in scripts.
-
-**Set up the environment.** Python uses [uv](https://docs.astral.sh/uv/) (`uv sync`); R uses [renv](https://rstudio.github.io/renv/) (`00_renv_restore.R`). Commit the lockfile so every site reproduces the same packages.
-
-**Write the pipeline.** Organize your code so another site can run it in order: typically cohort identification, then quality checks, then analysis. This is a suggestion, not a rule. The [Project Primer](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF-Project-Template/blob/main/guides/primer.md) covers cohort building and optimization tips.
-
-{: .warning }
-**Only aggregate results leave your site.** No `patient_id` or row-level records, every statistic at **n ≥ 10**, no raw `.csv`/`.parquet`. Shareable results go in `output/final_no_phi/`; patient-level working files stay in `output/intermediate_phi/` (gitignored).
-
 Full walkthrough: [Creator Guide](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF-Project-Template/blob/main/guides/creator-guide.md).
 
 ---
